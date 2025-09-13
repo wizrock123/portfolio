@@ -1,0 +1,160 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+/* Hero Section */
+.hero {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.hero h2 span {
+  color: #ff9800;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #ff9800;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #e68900;
+}
+
+/* Section Styles */
+.about, .skills, .projects, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* Skills */
+.skill-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill {
+  background: #eee;
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.skill:hover {
+  background: #ddd;
+}
+
+/* Projects */
+.project-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.project {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 150px;
+  transition: 0.3s;
+}
+
+.project:hover {
+  background: #ddd;
+}
+
+/* Contact */
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #222;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff9800;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
